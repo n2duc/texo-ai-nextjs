@@ -1,8 +1,8 @@
 "use client"
 
 import { useForm } from "react-hook-form";
-import { loginSchema, LoginValues } from "@/lib/validation";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { loginSchema, LoginValues } from "@/lib/validation";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
